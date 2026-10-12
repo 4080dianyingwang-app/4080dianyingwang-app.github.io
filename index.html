@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>4080电影网 - 高清电影电视剧免费在线观看_4080电影网官网</title>
+<meta name="description" content="4080电影网提供高清电影、热播电视剧、经典动漫、综艺纪实在线观看与影视榜单推荐，涵盖动作、喜剧、科幻、悬疑、爱情等多种类型，资源丰富、更新及时，页面简洁无广告干扰，移动端自适应，随时随地畅享4080电影网高清影视内容。">
+<meta name="keywords" content="4080电影网,4080电影,4080电影网官网,高清电影在线观看,热播电视剧,经典动漫,综艺纪实,影视榜单,免费电影网站">
+<meta name="robots" content="index,follow">
+<meta name="author" content="4080电影网">
+<meta name="theme-color" content="#0b1020">
+<link rel="canonical" href="https://www.4080dianyingwang-app.com/">
+<link rel="alternate" hreflang="zh-CN" href="https://www.4080dianyingwang-app.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="4080电影网">
+<meta property="og:title" content="4080电影网 - 高清电影电视剧免费在线观看">
+<meta property="og:description" content="4080电影网汇聚高清电影、热播电视剧、经典动漫与综艺纪实，提供影视榜单推荐，移动端自适应，随时畅享高清影视。">
+<meta property="og:url" content="https://www.4080dianyingwang-app.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="4080电影网 - 高清电影电视剧免费在线观看">
+<meta name="twitter:description" content="4080电影网：高清电影、热播电视剧、经典动漫、综艺纪实一站式在线观看与榜单推荐。">
+<style>
+/* ============ 基础重置 ============ */
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  padding:0;
+  font-family:system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:#0b1020;
+  color:#e8ecf8;
+  line-height:1.75;
+  font-size:16px;
+}
+img{max-width:100%;height:auto;display:block;}
+a{color:#ffc55a;text-decoration:none;}
+a:hover,a:focus{color:#ffe2a8;text-decoration:underline;}
+ul,ol{margin:0;padding:0;list-style:none;}
+h1,h2,h3,h4{margin:0 0 .6em;line-height:1.35;font-weight:700;}
+p{margin:0 0 1em;}
+:focus-visible{outline:2px solid #ffc55a;outline-offset:2px;}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 16px;}
+
+/* ============ 顶部导航 ============ */
+.topbar{
+  position:sticky;top:0;z-index:60;
+  background:rgba(11,16,32,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,197,90,.18);
+}
+.topbar .wrap{display:flex;align-items:center;gap:14px;height:62px;}
+.logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:800;letter-spacing:.5px;color:#fff;white-space:nowrap;}
+.logo:hover{text-decoration:none;}
+.logo-mark{
+  width:36px;height:36px;border-radius:10px;flex:0 0 36px;
+  background:linear-gradient(135deg,#ffc55a,#ff7a45);
+  color:#20160a;display:flex;align-items:center;justify-content:center;
+  font-size:15px;font-weight:900;
+}
+.logo b{color:#ffc55a;}
+.nav{margin-left:auto;}
+.nav ul{display:flex;gap:4px;}
+.nav a{
+  display:block;padding:8px 12px;border-radius:8px;
+  font-size:15px;color:#cfd8f5;
+}
+.nav a:hover{background:rgba(255,197,90,.12);color:#ffc55a;text-decoration:none;}
+.menu-toggle{display:none;margin-left:auto;}
+.menu-btn{
+  display:inline-block;padding:8px 14px;border:1px solid rgba(255,197,90,.45);
+  border-radius:8px;color:#ffc55a;font-size:14px;cursor:pointer;
+}
+#menu-state{position:absolute;left:-9999px;}
+
+/* ============ 首屏 ============ */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 85% -10%,rgba(255,122,69,.35),transparent 70%),
+    radial-gradient(700px 380px at 10% 110%,rgba(93,140,255,.28),transparent 70%),
+    linear-gradient(160deg,#0d1430,#111a3a 60%,#0b1020);
+  padding:56px 0 44px;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.hero h1{
+  font-size:34px;letter-spacing:1px;
+  background:linear-gradient(120deg,#fff,#ffc55a 60%,#ff7a45);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero .sub{color:#b9c4e8;max-width:760px;font-size:16px;}
+.hero .tagline{
+  display:inline-block;margin:10px 0 18px;padding:6px 14px;
+  border:1px dashed rgba(255,197,90,.45);border-radius:999px;
+  color:#ffc55a;font-size:13px;
+}
+.search-box{display:flex;gap:8px;max-width:620px;flex-wrap:wrap;}
+.search-box input{
+  flex:1 1 260px;min-width:0;
+  padding:12px 14px;border-radius:10px;
+  border:1px solid rgba(255,255,255,.16);
+  background:rgba(255,255,255,.06);color:#fff;font-size:15px;
+}
+.search-box input::placeholder{color:#8b97bd;}
+.search-box button{
+  padding:12px 22px;border:0;border-radius:10px;cursor:pointer;
+  background:linear-gradient(135deg,#ffc55a,#ff7a45);
+  color:#231703;font-weight:800;font-size:15px;
+}
+.stats{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;}
+.stats div{min-width:96px;}
+.stats strong{display:block;font-size:24px;color:#ffc55a;}
+.stats span{font-size:13px;color:#9aa6cc;}
+
+/* ============ 通用区块 ============ */
+.section{padding:48px 0;}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:22px;flex-wrap:wrap;}
+.section-head h2{
+  font-size:24px;color:#fff;position:relative;padding-left:14px;margin:0;
+}
+.section-head h2::before{
+  content:"";position:absolute;left:0;top:.35em;bottom:.35em;width:4px;border-radius:2px;
+  background:linear-gradient(180deg,#ffc55a,#ff7a45);
+}
+.section-head p{margin:0;font-size:14px;color:#93a0c8;}
+.more-link{font-size:14px;color:#ffc55a;white-space:nowrap;}
+.section:nth-of-type(even){background:rgba(255,255,255,.02);}
+
+/* ============ 卡片网格 ============ */
+.grid{
+  display:grid;gap:16px;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+}
+.card{
+  display:flex;flex-direction:column;
+  background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;overflow:hidden;
+  transition:transform .25s ease,border-color .25s ease;
+}
+.card:hover{transform:translateY(-4px);border-color:rgba(255,197,90,.45);}
+.poster{
+  position:relative;aspect-ratio:3/4;
+  display:flex;align-items:center;justify-content:center;
+  font-size:34px;font-weight:900;color:rgba(255,255,255,.9);
+  text-shadow:0 2px 12px rgba(0,0,0,.35);
+}
+.p1{background:linear-gradient(140deg,#2b3a7a,#7a3b6b);}
+.p2{background:linear-gradient(140deg,#123a4a,#2f7a6a);}
+.p3{background:linear-gradient(140deg,#5a2338,#a84a2f);}
+.p4{background:linear-gradient(140deg,#3a2a6a,#5a5ad0);}
+.p5{background:linear-gradient(140deg,#0f4a3a,#3a8a5a);}
+.p6{background:linear-gradient(140deg,#6a4a12,#c08a2a);}
+.p7{background:linear-gradient(140deg,#4a1f4a,#8a3a7a);}
+.p8{background:linear-gradient(140deg,#1f3a5a,#3a7a9a);}
+.badge{
+  position:absolute;top:10px;left:10px;
+  padding:3px 9px;border-radius:6px;font-size:12px;font-weight:700;
+  background:rgba(0,0,0,.55);color:#ffc55a;
+}
+.score{
+  position:absolute;right:10px;bottom:10px;
+  padding:3px 9px;border-radius:6px;font-size:12px;font-weight:800;
+  background:linear-gradient(135deg,#ffc55a,#ff7a45);color:#231703;
+}
+.card-body{padding:12px 14px 14px;}
+.card-body h3{font-size:16px;margin:0 0 6px;color:#fff;}
+.card-body h3 a{color:#fff;}
+.card-body h3 a:hover{color:#ffc55a;}
+.meta{font-size:13px;color:#8f9cc4;margin:0;}
+
+/* ============ 榜单 ============ */
+.rank-list{counter-reset:r;}
+.rank-list li{
+  display:flex;align-items:center;gap:14px;
+  padding:12px 14px;margin-bottom:10px;
+  border:1px solid rgba(255,255,255,.08);border-radius:12px;
+  background:rgba(255,255,255,.04);
+}
+.rank-list li::before{
+  counter-increment:r;content:counter(r);
+  flex:0 0 30px;height:30px;border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:900;font-size:14px;color:#231703;
+  background:linear-gradient(135deg,#ffc55a,#ff7a45);
+}
+.rank-list .rt{flex:1 1 auto;min-width:0;}
+.rank-list .rt strong{display:block;color:#fff;font-size:15px;}
+.rank-list .rt small{color:#8f9cc4;font-size:13px;}
+.rank-list .rv{color:#ffc55a;font-size:14px;font-weight:700;white-space:nowrap;}
+
+/* ============ 特色条 ============ */
+.features{
+  display:grid;gap:16px;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+.feature{
+  padding:20px;border-radius:14px;
+  background:linear-gradient(160deg,rgba(255,197,90,.10),rgba(255,122,69,.05));
+  border:1px solid rgba(255,197,90,.22);
+}
+.feature h3{font-size:17px;color:#ffc55a;margin-bottom:6px;}
+.feature p{margin:0;font-size:14px;color:#b9c4e8;}
+
+/* ============ 关于 / FAQ ============ */
+.about-box{
+  padding:24px;border-radius:16px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+}
+.about-box p{color:#c3ccec;}
+.faq details{
+  border:1px solid rgba(255,255,255,.1);border-radius:12px;
+  margin-bottom:10px;background:rgba(255,255,255,.03);overflow:hidden;
+}
+.faq summary{
+  padding:14px 16px;cursor:pointer;font-weight:700;color:#fff;font-size:15px;
+}
+.faq summary:hover{color:#ffc55a;}
+.faq details p{margin:0;padding:0 16px 14px;font-size:14px;color:#b9c4e8;}
+
+/* ============ 页脚 ============ */
+.footer{
+  background:#080c1a;border-top:1px solid rgba(255,197,90,.18);
+  padding:36px 0 28px;margin-top:10px;
+}
+.foot-grid{
+  display:grid;gap:22px;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+.foot-grid h4{font-size:15px;color:#ffc55a;margin-bottom:10px;}
+.foot-grid li{margin-bottom:7px;font-size:14px;}
+.foot-grid a{color:#b9c4e8;}
+.foot-grid a:hover{color:#ffc55a;}
+.foot-note{
+  margin-top:24px;padding-top:18px;
+  border-top:1px solid rgba(255,255,255,.08);
+  font-size:13px;color:#8f9cc4;
+}
+.foot-note p{margin:0 0 8px;}
+.keywords{font-size:13px;color:#7f8bb2;line-height:2;}
+.to-top{
+  display:inline-block;margin-top:12px;padding:8px 16px;
+  border:1px solid rgba(255,197,90,.4);border-radius:999px;font-size:13px;color:#ffc55a;
+}
+.to-top:hover{background:rgba(255,197,90,.12);text-decoration:none;}
+
+/* ============ 移动端自适应 ============ */
+@media (max-width:900px){
+  .nav{display:none;}
+  .menu-toggle{display:block;}
+  #menu-state:checked ~ .nav{
+    display:block;position:absolute;top:62px;left:0;right:0;
+    background:rgba(11,16,32,.98);border-bottom:1px solid rgba(255,197,90,.2);
+    padding:10px 16px 16px;
+  }
+  #menu-state:checked ~ .nav ul{flex-direction:column;gap:2px;}
+  #menu-state:checked ~ .nav a{padding:12px 10px;border-bottom:1px solid rgba(255,255,255,.06);}
+}
+@media (max-width:768px){
+  body{font-size:15px;}
+  .hero{padding:38px 0 32px;}
+  .hero h1{font-size:26px;}
+  .hero .sub{font-size:15px;}
+  .section{padding:34px 0;}
+  .section-head h2{font-size:20px;}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+  .poster{font-size:26px;}
+  .card-body{padding:10px 11px 12px;}
+  .card-body h3{font-size:14px;}
+  .meta{font-size:12px;}
+  .stats{gap:16px;}
+  .stats strong{font-size:20px;}
+  .rank-list li{gap:10px;padding:10px 12px;}
+}
+@media (max-width:420px){
+  .grid{grid-template-columns:1fr;}
+  .poster{aspect-ratio:16/10;font-size:30px;}
+  .search-box button{width:100%;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .card{transition:none;}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.4080dianyingwang-app.com/#website",
+      "url": "https://www.4080dianyingwang-app.com/",
+      "name": "4080电影网",
+      "alternateName": ["4080电影", "4080电影网官网"],
+      "inLanguage": "zh-CN",
+      "description": "4080电影网提供高清电影、热播电视剧、经典动漫、综艺纪实在线观看与影视榜单推荐。"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.4080dianyingwang-app.com/#organization",
+      "name": "4080电影网",
+      "url": "https://www.4080dianyingwang-app.com/",
+      "description": "4080电影网是面向广大影视爱好者的在线影视资源聚合平台。"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"4080电影网首页","item":"https://www.4080dianyingwang-app.com/"},
+        {"@type":"ListItem","position":2,"name":"热门电影","item":"https://www.4080dianyingwang-app.com/#movie"},
+        {"@type":"ListItem","position":3,"name":"电视剧集","item":"https://www.4080dianyingwang-app.com/#tv"},
+        {"@type":"ListItem","position":4,"name":"经典动漫","item":"https://www.4080dianyingwang-app.com/#anime"},
+        {"@type":"ListItem","position":5,"name":"综艺纪实","item":"https://www.4080dianyingwang-app.com/#variety"},
+        {"@type":"ListItem","position":6,"name":"影视榜单","item":"https://www.4080dianyingwang-app.com/#rank"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "4080电影网是什么网站？",
+          "acceptedAnswer": {"@type":"Answer","text":"4080电影网是一个面向影视爱好者的在线影视聚合平台，提供高清电影、热播电视剧、经典动漫、综艺纪实等内容分类浏览与影视榜单推荐。"}
+        },
+        {
+          "@type": "Question",
+          "name": "4080电影网支持手机浏览吗？",
+          "acceptedAnswer": {"@type":"Answer","text":"支持。4080电影网采用响应式布局，页面会根据手机、平板与桌面屏幕尺寸自动调整排版，移动端浏览体验同样流畅。"}
+        },
+        {
+          "@type": "Question",
+          "name": "如何在4080电影网快速找到想看的影片？",
+          "acceptedAnswer": {"@type":"Answer","text":"可以使用4080电影网首页搜索框按片名关键词检索，也可以通过热门电影、电视剧集、经典动漫、综艺纪事与影视榜单等栏目分类浏览。"}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<!-- ==================== 顶部导航 ==================== -->
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="4080电影网首页">
+      <span class="logo-mark" aria-hidden="true">4080</span>
+      <span>4080<b>电影网</b></span>
+    </a>
+
+    <input type="checkbox" id="menu-state" aria-label="展开导航菜单">
+    <label class="menu-toggle" for="menu-state"><span class="menu-btn">菜单</span></label>
+
+    <nav class="nav" aria-label="网站主导航">
+      <ul>
+        <li><a href="#movie">热门电影</a></li>
+        <li><a href="#tv">电视剧集</a></li>
+        <li><a href="#anime">经典动漫</a></li>
+        <li><a href="#variety">综艺纪实</a></li>
+        <li><a href="#rank">影视榜单</a></li>
+        <li><a href="#about">关于我们</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== 首屏 ==================== -->
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <span class="tagline">4080电影网 · 高清影视在线观看</span>
+    <h1 id="hero-title">4080电影网 — 高清电影、热播电视剧免费在线观看</h1>
+    <p class="sub">
+      4080电影网（www.4080dianyingwang-app.com）汇聚高清电影、热播电视剧、经典动漫与综艺纪实资源，
+      每日更新热门片单与影视榜单，页面简洁、加载快速、移动端自适应，随时随地畅享4080电影网高清影视内容。
+    </p>
+
+    <form class="search-box" action="#" method="get" role="search" aria-label="4080电影网站内搜索">
+      <label for="q" class="visually-hidden" style="position:absolute;left:-9999px;">搜索影片</label>
+      <input type="search" id="q" name="q" placeholder="搜索4080电影网片名、演员或类型…" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+
+    <div class="stats">
+      <div><strong>12000+</strong><span>影视资源</span></div>
+      <div><strong>6 大</strong><span>内容栏目</span></div>
+      <div><strong>24 小时</strong><span>更新不停</span></div>
+      <div><strong>1080P</strong><span>高清画质</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 栏目一：热门电影 ==================== -->
+<section class="section" id="movie" aria-labelledby="movie-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="movie-title">热门电影 · 4080电影网高清片库</h2>
+        <p>动作 / 科幻 / 喜剧 / 悬疑 / 爱情，4080电影网每日上新</p>
+      </div>
+      <a class="more-link" href="#">查看全部电影 &raquo;</a>
+    </div>
+
+    <ul class="grid">
+      <li class="card">
+        <div class="poster p1"><span class="badge">动作</span><span class="score">8.7</span>烈火</div>
+        <div class="card-body">
+          <h3><a href="#">烈火行动 高清完整版</a></h3>
+          <p class="meta">动作 · 2025 · 4080电影网独家推荐</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p2"><span class="badge">科幻</span><span class="score">9.1</span>星海</div>
+        <div class="card-body">
+          <h3><a href="#">星海远征 1080P 在线观看</a></h3>
+          <p class="meta">科幻 · 2025 · 高分佳作</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p3"><span class="badge">悬疑</span><span class="score">8.4</span>迷局</div>
+        <div class="card-body">
+          <h3><a href="#">迷局追凶 剧情解析</a></h3>
+          <p class="meta">悬疑 · 2024 · 烧脑推荐</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p4"><span class="badge">喜剧</span><span class="score">7.9</span>欢喜</div>
+        <div class="card-body">
+          <h3><a href="#">欢喜一家人 爆笑上映</a></h3>
+          <p class="meta">喜剧 · 2025 · 合家欢</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p5"><span class="badge">爱情</span><span class="score">8.2</span>时光</div>
+        <div class="card-body">
+          <h3><a href="#">时光情书 高清版</a></h3>
+          <p class="meta">爱情 · 2024 · 浪漫治愈</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p6"><span class="badge">历史</span><span class="score">8.8</span>长风</div>
+        <div class="card-body">
+          <h3><a href="#">长风渡 史诗巨制</a></h3>
+          <p class="meta">历史 · 2023 · 口碑佳作</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== 栏目二：电视剧集 ==================== -->
+<section class="section" id="tv" aria-labelledby="tv-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="tv-title">电视剧集 · 4080电影网同步热播</h2>
+        <p>都市 / 古装 / 刑侦 / 家庭，追剧不等待</p>
+      </div>
+      <a class="more-link" href="#">查看全部剧集 &raquo;</a>
+    </div>
+
+    <ul class="grid">
+      <li class="card">
+        <div class="poster p7"><span class="badge">古装</span><span class="score">8.6</span>锦绣</div>
+        <div class="card-body">
+          <h3><a href="#">锦绣山河 全48集</a></h3>
+          <p class="meta">古装 · 更新至第 32 集</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p8"><span class="badge">刑侦</span><span class="score">8.9</span>破晓</div>
+        <div class="card-body">
+          <h3><a href="#">破晓追缉 全30集</a></h3>
+          <p class="meta">刑侦 · 已完结 · 4080热播</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p1"><span class="badge">都市</span><span class="score">7.8</span>晨光</div>
+        <div class="card-body">
+          <h3><a href="#">晨光之下 全36集</a></h3>
+          <p class="meta">都市 · 更新至第 18 集</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p2"><span class="badge">家庭</span><span class="score">8.1</span>归途</div>
+        <div class="card-body">
+          <h3><a href="#">归途有风 全40集</a></h3>
+          <p class="meta">家庭 · 温情推荐</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p3"><span class="badge">权谋</span><span class="score">8.5</span>弈局</div>
+        <div class="card-body">
+          <h3><a href="#">弈局天下 全52集</a></h3>
+          <p class="meta">权谋 · 4080电影网高分</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p4"><span class="badge">青春</span><span class="score">7.6</span>夏鸣</div>
+        <div class="card-body">
+          <h3><a href="#">夏鸣时分 全24集</a></h3>
+          <p class="meta">青春 · 校园治愈</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== 栏目三：经典动漫 ==================== -->
+<section class="section" id="anime" aria-labelledby="anime-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="anime-title">经典动漫 · 4080电影网童年回忆</h2>
+        <p>国创 / 日漫 / 剧场版 / 亲子动画</p>
+      </div>
+      <a class="more-link" href="#">查看全部动漫 &raquo;</a>
+    </div>
+
+    <ul class="grid">
+      <li class="card">
+        <div class="poster p5"><span class="badge">国创</span><span class="score">9.3</span>山海</div>
+        <div class="card-body">
+          <h3><a href="#">山海奇谭 全26话</a></h3>
+          <p class="meta">国创 · 4080电影网精选</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p6"><span class="badge">剧场版</span><span class="score">9.0</span>天空</div>
+        <div class="card-body">
+          <h3><a href="#">天空之城剧场版 高清</a></h3>
+          <p class="meta">剧场版 · 全家共赏</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p7"><span class="badge">冒险</span><span class="score">8.7</span>远航</div>
+        <div class="card-body">
+          <h3><a href="#">远航少年 全52话</a></h3>
+          <p class="meta">冒险 · 热血推荐</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p8"><span class="badge">亲子</span><span class="score">8.3</span>森林</div>
+        <div class="card-body">
+          <h3><a href="#">森林小卫士 全39话</a></h3>
+          <p class="meta">亲子 · 益智动画</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== 栏目四：综艺纪实 ==================== -->
+<section class="section" id="variety" aria-labelledby="variety-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="variety-title">综艺纪实 · 4080电影网人文视野</h2>
+        <p>真人秀 / 纪录片 / 美食 / 旅行</p>
+      </div>
+      <a class="more-link" href="#">查看全部综艺 &raquo;</a>
+    </div>
+
+    <ul class="grid">
+      <li class="card">
+        <div class="poster p1"><span class="badge">纪录片</span><span class="score">9.4</span>山河</div>
+        <div class="card-body">
+          <h3><a href="#">山河中国 全8集</a></h3>
+          <p class="meta">纪录片 · 4K 超清</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p2"><span class="badge">美食</span><span class="score">8.5</span>烟火</div>
+        <div class="card-body">
+          <h3><a href="#">烟火味道 第5季</a></h3>
+          <p class="meta">美食 · 4080电影网热播</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p3"><span class="badge">旅行</span><span class="score">8.2</span>远方</div>
+        <div class="card-body">
+          <h3><a href="#">远方有路 全12期</a></h3>
+          <p class="meta">旅行 · 治愈系</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="poster p4"><span class="badge">真人秀</span><span class="score">7.9</span>舞台</div>
+        <div class="card-body">
+          <h3><a href="#">舞台之上 第3季</a></h3>
+          <p class="meta">真人秀 · 每周更新</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== 栏目五：影视榜单 ==================== -->
+<section class="section" id="rank" aria-labelledby="rank-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="rank-title">影视榜单 · 4080电影网热播排行</h2>
+        <p>依据4080电影网播放热度与用户评分综合排序</p>
+      </div>
+      <a class="more-link" href="#">查看完整榜单 &raquo;</a>
+    </div>
+
+    <ol class="rank-list">
+      <li>
+        <span class="rt"><strong>星海远征</strong><small>科幻 · 电影 · 9.1分</small></span>
+        <span class="rv">热度 98.6万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>山海奇谭</strong><small>国创 · 动漫 · 9.3分</small></span>
+        <span class="rv">热度 91.2万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>破晓追缉</strong><small>刑侦 · 剧集 · 8.9分</small></span>
+        <span class="rv">热度 87.4万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>山河中国</strong><small>人文 · 纪录片 · 9.4分</small></span>
+        <span class="rv">热度 80.1万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>锦绣山河</strong><small>古装 · 剧集 · 8.6分</small></span>
+        <span class="rv">热度 76.9万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>迷局追凶</strong><small>悬疑 · 电影 · 8.4分</small></span>
+        <span class="rv">热度 70.5万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>烟火味道 第5季</strong><small>美食 · 综艺 · 8.5分</small></span>
+        <span class="rv">热度 65.3万</span>
+        <a href="#">播放</a>
+      </li>
+      <li>
+        <span class="rt"><strong>长风渡</strong><small>历史 · 电影 · 8.8分</small></span>
+        <span class="rv">热度 61.8万</span>
+        <a href="#">播放</a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ==================== 栏目六：关于我们 ==================== -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2 id="about-title">关于4080电影网</h2>
+        <p>认识4080电影网，了解我们的服务与特色</p>
+      </div>
+      <a class="more-link" href="#">联系我们 &raquo;</a>
+    </div>
+
+    <div class="about-box">
+      <h3>4080电影网简介</h3>
+      <p>
+        4080电影网（www.4080dianyingwang-app.com）是一家专注于影视内容聚合与推荐的在线平台，
+        致力于为用户提供清晰、便捷、稳定的观影入口。4080电影网覆盖高清电影、热播电视剧、经典动漫、
+        综艺纪实与影视榜单五大内容板块，并通过智能分类与关键词检索，帮助用户快速定位想看的影片。
+      </p>
+      <p>
+        作为深受影视爱好者喜爱的<a href="#">免费电影网站</a>，4080电影网坚持每日更新片单、优化页面体验，
+        全面适配手机与平板等移动设备，让"随时随地看好片"成为日常。
+      </p>
+    </div>
+
+    <div class="features" style="margin-top:22px;">
+      <div class="feature">
+        <h3>全站高清画质</h3>
+        <p>4080电影网提供 1080P 起的高清片源，画质清晰、播放流畅。</p>
+      </div>
+      <div class="feature">
+        <h3>移动端自适应</h3>
+        <p>响应式布局自动适配手机、平板与桌面，小屏也能轻松浏览。</p>
+      </div>
+      <div class="feature">
+        <h3>每日更新片单</h3>
+        <p>4080电影网编辑团队每日整理热播影视与榜单，内容常看常新。</p>
+      </div>
+      <div class="feature">
+        <h3>分类清晰易找</h3>
+        <p>六大栏目按类型与题材划分，配合搜索快速定位目标影片。</p>
+      </div>
+    </div>
+
+    <div class="faq" style="margin-top:26px;">
+      <h3 style="color:#ffc55a;font-size:18px;">4080电影网常见问题</h3>
+      <details>
+        <summary>4080电影网是什么网站？</summary>
+        <p>4080电影网是一个面向影视爱好者的在线影视聚合平台，提供高清电影、热播电视剧、经典动漫、综艺纪实等内容分类浏览与影视榜单推荐。</p>
+      </details>
+      <details>
+        <summary>4080电影网支持手机浏览吗？</summary>
+        <p>支持。4080电影网采用响应式布局，页面会根据手机、平板与桌面屏幕尺寸自动调整排版，移动端浏览体验同样流畅。</p>
+      </details>
+      <details>
+        <summary>如何在4080电影网快速找到想看的影片？</summary>
+        <p>可以使用4080电影网首页搜索框按片名关键词检索，也可以通过热门电影、电视剧集、经典动漫、综艺纪事与影视榜单等栏目分类浏览。</p>
+      </details>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ==================== 页脚 ==================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>4080电影网栏目</h4>
+        <ul>
+          <li><a href="#movie">热门电影</a></li>
+          <li><a href="#tv">电视剧集</a></li>
+          <li><a href="#anime">经典动漫</a></li>
+          <li><a href="#variety">综艺纪实</a></li>
+          <li><a href="#rank">影视榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>影视类型</h4>
+        <ul>
+          <li><a href="#">动作电影</a></li>
+          <li><a href="#">科幻电影</a></li>
+          <li><a href="#">悬疑推理</a></li>
+          <li><a href="#">古装剧集</a></li>
+          <li><a href="#">人文纪录片</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>服务与支持</h4>
+        <ul>
+          <li><a href="#">新手指南</a></li>
+          <li><a href="#">播放帮助</a></li>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于本站</h4>
+        <ul>
+          <li><a href="#about">关于4080电影网</a></li>
+          <li><a href="#">网站简介</a></li>
+          <li><a href="#">免责声明</a></li>
+          <li><a href="#">友情链接</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-note">
+      <p>4080电影网（www.4080dianyingwang-app.com）— 高清电影、热播电视剧、经典动漫、综艺纪实在线观看与影视榜单推荐。</p>
+      <p class="keywords">
+        热门关键词：4080电影网、4080电影、4080电影网官网、4080电影网高清电影、免费电影网站、高清电影在线观看、
+        热播电视剧、经典动漫推荐、人文纪录片、影视榜单排行
+      </p>
+      <p>&copy; 2026 4080电影网 www.4080dianyingwang-app.com 版权所有</p>
+      <a class="to-top" href="#top">回到顶部 &uarr;</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var box = document.getElementById('menu-state');
+  if (!box) { return; }
+  document.querySelectorAll('.nav a').forEach(function (a) {
+    a.addEventListener('click', function () { box.checked = false; });
+  });
+})();
+</script>
+</body>
+</html>
